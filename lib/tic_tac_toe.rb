@@ -70,8 +70,8 @@ class TicTacToe
       position_3 = combination[2]
       if position_taken?(combination[0]) && position_1 == position_2 && position_2 == position_3
         result = combination
-        binding.pry
       end
+      binding.pry
     end
     result
   end 
