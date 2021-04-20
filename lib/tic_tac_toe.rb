@@ -67,7 +67,7 @@ class TicTacToe
       position_1 = combination[0]
       position_2 = combination[1]
       position_3 = combination[2]
-      if position_taken?(combination[0] && position_1 == position_2 && position_2 == position_3
+      if position_taken?(combination[0]) && position_1 == position_2 && position_2 == position_3
         result = combination
       end
     end
