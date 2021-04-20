@@ -43,6 +43,7 @@ class TicTacToe
       if position == ("X") || position == "O"
         count += 1 
       end
+    end 
     count 
   end 
 
