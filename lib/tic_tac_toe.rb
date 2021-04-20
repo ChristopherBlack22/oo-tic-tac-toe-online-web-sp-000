@@ -15,7 +15,9 @@ class TicTacToe
     puts "-----------"
   end
   
-  
+  def input_to_index
+    index = input.to_i -1
+  end 
   
   
   
