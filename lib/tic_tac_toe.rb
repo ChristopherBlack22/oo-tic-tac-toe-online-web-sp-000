@@ -107,4 +107,11 @@ class TicTacToe
     end 
   end 
   
+  def play 
+  turn
+  
+    
+  end 
+  
+  
 end
