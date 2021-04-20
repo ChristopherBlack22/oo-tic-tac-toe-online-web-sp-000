@@ -63,17 +63,17 @@ class TicTacToe
   end 
   
   def won?
-    result = false
+    #result = false
     WIN_COMBINATIONS.each do |combination|
       position_1 = combination[0]
       position_2 = combination[1]
       position_3 = combination[2]
-      result = combination if position_taken?(combination[0]) && position_1 == position_2 && position_2 == position_3
-        #result = combination
-      #end
+      if position_taken?(combination[0]) && position_1 == position_2 && position_2 == position_3
+        return combination
+      end
       # binding.pry
     end
-    result
+    # result
   end 
   
 end
