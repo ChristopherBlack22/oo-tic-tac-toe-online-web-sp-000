@@ -75,9 +75,13 @@ class TicTacToe
       if position_taken?(combination[0]) && position_1 == position_2 && position_2 == position_3
         result = combination
       end
-      # binding.pry
     end
     result
   end 
+  
+  def full?
+    if @board.all?("X" && "O")
+  end 
+  
   
 end
