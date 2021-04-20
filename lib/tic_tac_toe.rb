@@ -81,7 +81,7 @@ class TicTacToe
   
   def full?
     result = false
-    if @board.all? {|index| index == "X" || "O"}
+    if @board.all? {|index| index == "X" || index == "O"}
       result = true 
     end 
     result
